@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.3rem;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: rgb(150, 0, 0);
+}
+
+a {
+  color: rgb(150, 0, 0);
+}
+
+a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+a:active {
+  color: blue;
+  cursor: pointer;
+}
+
+a:visited {
+  color: rgb(214, 175, 0);
+  cursor: pointer;
+}
+
+hgroup {
+  font-size: 20px;
+  margin-bottom: 5px;
+  padding: 25px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 500;
+  margin-bottom: 13px;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+/* 
+padding with 2 values: top & bottom, right & left
+padding with 3 values: top, right & left, bottom
+padding with 4 values: top, right, bottom, left 
+*/
+
+p {
+  padding: 0 25px 8px;
+}
+
+.posts {
+  padding-top: 25px;
+  padding-bottom: 20px;
+  background-color: black;
+  border-radius: 20px;
+  border: 1px white solid;
+  color: white;
+  max-width: 80%;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
